@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Elder Lands | B. Salem
 
-# Run and deploy your AI Studio app
+A premium, cinematic 4-book kingdom-building LitRPG series website. This project features an immersive dark fantasy aesthetic, responsive design, and automated deployment via GitHub Actions.
 
-This contains everything you need to run your app locally.
+## ⚔️ Series Overview
+**Ambitious heir. Pragmatic father. One fief. Infinite consequences.**
 
-View your app in AI Studio: https://ai.studio/apps/drive/1S9t-t-LecWfa_EnCevMj-cRCdZZdU7KE
+*The Elder Lands* follows Lucan Zesh as he transforms from a doubting heir into a decisive leader. The series explores father-son dynamics, earned progression, and the weight of leadership in a world where every decision ripples through the fief.
 
-## Run Locally
+## ✨ Features
+- **Cinematic Hero Section**: Immersive landing with dynamic overlays and motion typography.
+- **Kingdom-Building Guide**: Interactive lore cards exploring fief maps, God Orb systems, and system mechanics.
+- **Book Showcase**: Tabbed interface featuring all 4 books with ratings, reviews, and direct links.
+- **Reader Testimonials**: Curated reviews from Royal Road, Goodreads, and Amazon.
+- **Mobile Optimized**: Custom headers and fluid layouts designed for flawless reading on any device.
+- **CI/CD Ready**: Automated deployment to GitHub Pages via Vite and GitHub Actions.
 
-**Prerequisites:**  Node.js
+## 🛠️ Technology Stack
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 6](https://vitejs.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: Cinzel, Playfair Display, and Lato (via Google Fonts)
+- **Styling**: Vanilla CSS (Modern CSS variables and clamping)
 
+## 🚀 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ijazahvmmed/bassel.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Deployment
+This project is configured for **GitHub Pages**. Any push to the `master` branch will trigger an automatic build and deployment via the `.github/workflows/deploy.yml` workflow.
+
+## 📜 Project Structure
+- `index.tsx`: Core application logic and styled-components.
+- `index.html`: Entry point and font loading.
+- `vite.config.ts`: Environment and deployment configuration.
+- `.github/workflows/`: Automated CI/CD pipelines.
+
+## ⚖️ License
+Copyright © 2025 B. Salem. All rights reserved. The Elder Lands is a trademark of B. Salem LLC.
